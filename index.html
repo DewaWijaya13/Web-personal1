@@ -7,14 +7,18 @@
       name="description"
       content="Farm Wijaya - Jelajahi kebun buah segar dan panen kebahagiaan Anda dengan pengalaman perkebunan modern."
     />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <!--  FEATHER ICON -->
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="image/image-logo-removebg-preview.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="imgage/image-logo-removebg-preview.png"
+      type="image/x-icon"
+    />
     <title>Farm Wijaya</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <nav class="navbar">
@@ -29,13 +33,17 @@
         <li class="navbar-menu-list"><a href="#contact">Contact</a></li>
       </ul>
       <div class="navbar-extra">
-        <a href="#"><i data-feather="search"></i></a>
-        <a href="#"><i data-feather="shopping-cart"></i></a>
-        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        <a href="#"><i data-feather="search" class="sosmed-extra"></i></a>
+        <a href="#"
+          ><i data-feather="shopping-cart" class="sosmed-extra"></i
+        ></a>
+        <a href="#" id="hamburger-menu"
+          ><i data-feather="menu" class="sosmed-extra"></i
+        ></a>
       </div>
     </nav>
     <!-- hero section -->
-    <section class="hero" id="home" data-aos="fade-down" data-aos-delay="300">
+    <section class="hero" id="home" data-aos="zoom-in" data-aos-delay="300">
       <header class="header-hero">
         <h1>Welcome to Farm <span>Wjya.</span></h1>
         <h3>Nikmati Keindahan Kebun Buah dan Panen Kesegaran</h3>
@@ -51,15 +59,10 @@
         <a href="#" class="sosmed-extra"><i data-feather="instagram"></i></a>
         <a href="#" class="sosmed-extra"><i data-feather="mail"></i></a>
       </header>
-      <img src="image/hero-image.png" alt="hero image" />
+      <img src="image/hero-image.png" alt="hero img" />
     </section>
     <!-- SECTION ABOUT -->
-    <section
-      class="about"
-      id="about"
-      data-aos="fade-right"
-      data-aos-delay="300"
-    >
+    <section class="about" id="about" data-aos="zoom-in" data-aos-delay="300">
       <div class="title-about">
         <h1>About Us</h1>
         <p>
@@ -78,7 +81,7 @@
           <p>Perpaduan pertanian dan dunia teknologi yang lebih modern</p>
           <a href="#" id="btn-about">Learn More</a>
         </div>
-        <img src="image/about-img.jpg" alt="gambar about" />
+        <img src="image/about-img.png" alt="about" />
       </main>
     </section>
     <!-- GALLERY -->
@@ -86,7 +89,7 @@
     <section
       class="gallery"
       id="gallery"
-      data-aos="fade-left"
+      data-aos="zoom-in"
       data-aos-delay="300"
     >
       <div class="gallery-header">
@@ -98,13 +101,13 @@
       </div>
       <div class="gallery-container">
         <div class="gallery-item">
-          <img src="image/about-img.jpg" alt="Gallery Image 1" />
+          <img src="image/about-img.png" alt="Gallery Image 1" />
         </div>
         <div class="gallery-item">
-          <img src="image//buah-naga.jpg" alt="Gallery Image 2" />
+          <img src="image/buah-naga.png" alt="Gallery Image 2" />
         </div>
         <div class="gallery-item">
-          <img src="image//semangka.jpg" alt="Gallery Image 3" />
+          <img src="image/semangka.png" alt="Gallery Image 3" />
         </div>
         <div class="gallery-item">
           <img src="image/cabai.jpg" alt="Gallery Image 4" />
@@ -138,10 +141,10 @@
         </form>
         <div class="contact-info">
           <h3>Our Location</h3>
-          <p>Jl. Buah Segar No. 123, Kebun Raya, Indonesia</p>
+          <p>Jl. Tanjung No. 49, Kelong, Bintan</p>
           <h3>Contact Info</h3>
-          <p>Email: info@farmwijaya.com</p>
-          <p>Phone: +62 812 3456 7890</p>
+          <p style="font-size: 0.8rem">Email: @dewaanggar3gmail.com</p>
+          <p>Phone: +62 857 6751 9766</p>
         </div>
       </div>
     </section>
@@ -174,6 +177,11 @@
 
     <!-- my js -->
     <script src="script.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- FEATHER ICON -->
     <!-- <i data-feather="circle"></i> -->
     <script>
