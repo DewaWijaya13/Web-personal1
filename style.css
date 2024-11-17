@@ -499,6 +499,13 @@
   .navbar .navbar-nav.active {
     right: 0; /* Tampilkan navbar menu saat aktif */
   }
+  .navbar .navbar-extra a{
+    margin: 0 0.1rem;
+  }
+  .navbar .navbar-extra .sosmed-extra{
+    width: 30px;
+    height: 20px;
+    }
   /* hero section */
   .hero {
     flex-direction: column-reverse; /* Susunan vertikal */
